@@ -19,11 +19,11 @@ div{
 -------------------------------------------------------------- */
 
 #header{
-    background: #cccccc;
+    background: #eeeae5;
 }
 
 #main {
-    background: #eeeae5;
+    background: #fefaf5;
 }
 
 #primary {
@@ -93,10 +93,11 @@ div{
 -------------------------------------------------------------- */
 
 @media screen and (min-width : 1140px) {
-    #main{
+    #header, #main, #footer {
         margin-left: 15%;
         margin-right: 15%;
     }
+
     #primary{
         float: left;
         margin-left: 25%;

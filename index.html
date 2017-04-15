@@ -2,16 +2,22 @@
 <html>
 <head>
     <link rel="stylesheet" href="core.css">
+    <script src="https://cdn.rawgit.com/showdownjs/showdown/1.6.4/dist/showdown.min.js"></script>
+    <script>
+        var converter = new showdown.Converter(),
+        text      = '##Testing markdown! \n --------- \n Content goes here!',
+        html      = converter.makeHtml(text);
+    </script>
 </head>
 <body>
 <div id="page">
     <div id="header" class="site-header">
         <div class="wrap">
 
-            <div id="branding" role="banner">
+            <!--<div id="branding" role="banner"> -->
                 <p class="site-title"><a href="http://thealexhoar.github.io">Site Title</a></p>
                 <p class="site-description">Just another personal site...</p>
-            </div><!--#branding-->
+            <!--</div><!--#branding-->
 
         </div><!--.wrap-->
     </div><!--#header-->
@@ -21,7 +27,9 @@
 
             <div id="primary">
                 <div id="content" role="main">
-                    <p>Article content...</p>
+                    <script>
+                        document.write(html);
+                    </script>
                 </div><!--#content-->
             </div><!--#primary-->
 
