@@ -92,7 +92,7 @@ div{
 /* =Structure Desktop
 -------------------------------------------------------------- */
 
-@media screen and (min-width : 1140px) {
+@media screen and (min-width : 1200px) {
     #header, #main, #footer {
         margin-left: 15%;
         margin-right: 15%;

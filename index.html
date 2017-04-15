@@ -3,10 +3,20 @@
 <head>
     <link rel="stylesheet" href="core.css">
     <script src="https://cdn.rawgit.com/showdownjs/showdown/1.6.4/dist/showdown.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
+        var text = "";
+        $.ajax({
+            url: 'lorem-ipsum.md',
+            type: 'get',
+            async: false,
+            success: function(html) {
+                text = String(html);
+            }
+        });
+
         var converter = new showdown.Converter(),
-        text      = '##Testing markdown! \n --------- \n Content goes here!',
-        html      = converter.makeHtml(text);
+            html      = converter.makeHtml(text);
     </script>
 </head>
 <body>
