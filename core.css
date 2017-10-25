@@ -8,9 +8,32 @@
     margin-top: 0;
 }
 
+a:link {
+    color: #336600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #504030;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cc5522;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
 html,
 body,
 div{
+    color: #331100;
     margin: 0;
     padding: 0;
 }
@@ -19,11 +42,11 @@ div{
 -------------------------------------------------------------- */
 
 #header{
-    background: #eeeae5;
+    background: #dedad5;
 }
 
 #main {
-    background: #fefaf5;
+    background: #eeeae5;
 }
 
 #primary {
