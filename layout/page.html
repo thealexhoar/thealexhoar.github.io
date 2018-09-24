@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href ="{{asset 'favicon.ico'}}?v=2"/>
+    <link href='http://fonts.googleapis.com/css?family=Andika|Droid+Sans+Mono|Cantarell:400,700,400italic' rel='stylesheet' type='text/css' />
+    
+    <link type="text/css" rel="stylesheet" href="{{asset 'style.css'}}"/>
+    <!--<link type="text/css" rel="stylesheet" href="{{asset 'assert.css'}}"/>-->
+    <link type="text/css" rel="stylesheet" href="{{asset 'pilcrow.css'}}"/>
+    <link type="text/css" rel="stylesheet" href="{{asset 'hljs-github.min.css'}}"/>
+  </head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      TODO add header
+    </div>
+    <div class="clear">
+      <hr>
+    </div>
+
+    <div id="main">
+      <div id="container">
+        <div id="content" class="post">
+         {{~> content}}
+
+         <!--<div id="bottom_navi">
+          <a href="{{prev}}.html"> &lt; &lt; Previous Chapter</a> | <a href="{{next}}.html">Next Chapter &gt; &gt;</a>
+         </div>-->
+        </div>
+      </div>
+    </div>
+    <div id="sidebar">
+      {{~> toc}}
+    </div>
+    <div class="clear">
+    </div>
+
+    <div id="footer">
+      <p>CSS by <a href="http://mixu.net/">Mikito Takada</a>.</p>
+      <div class="clear">
+        <hr>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

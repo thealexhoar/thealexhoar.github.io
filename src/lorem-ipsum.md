@@ -1,3 +1,5 @@
+title: Title Ipsum
+-----
 # Ex prior si priorem rarescit torreri igitur
 
 ## Inerti alumni
@@ -28,7 +30,7 @@ Stabiasque ipsosque est; inmeritam. Florem lacrimis anxia caeso nomen?
 - Corintho et debes
 - Iphis currus
 
-Iam terra petitus ferus pede reditus non nostrumque Tyrrhenaque terraque
+Iam terra petitus ferus pede reditus **non nostrumque** Tyrrhenaque terraque
 darentur **de**. Isque caput [leto](http://columbas.org/dederas-non), ne
 tollentes dixerit cruciatibus mater, hoc atrorum veniam percussa imagine a
 nodum.
@@ -38,3 +40,9 @@ Per platanus formae feriente. Ore doloris surgit
 [quicquam](http://www.inhibere.io/) in agnoscit quid, vero omnes; iacent
 capistris. Cepit alti solo: dominoque plurimus *terret convicia haec* pondera:
 nubibus et quis [dilapsa longum cunctis](http://in-erigor.com/).
+
+```C
+void main() {
+    printf("hello world!");
+}
+```
